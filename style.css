@@ -30,15 +30,25 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top:2rem;
+    width: 84%;
+    margin: auto;
+    padding: 20px 20px;
   
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
 }
 
 .hamburger {
     display:none;
 }
 
+.nav-logo{
+  max-height: 100px;
+  display: flex;
 
+}
 
 .nav-menu {
     display: flex;
@@ -64,14 +74,6 @@ justify-content: space-between;
     color: white;
    display:block;
   align-items:center;
-}
-
-
-
-.nav-logo {
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: white;
 }
 .nav-item .styling1{
   padding:4px;
