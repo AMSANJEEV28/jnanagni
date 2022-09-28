@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ html{
+  top:0px;
+  margin:0px;
+  height: 100%;
+  background-color:black;
+ }
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+  color:white;
+  padding:10px;
+  
+}
+
+.header{
+    border-bottom: 1px solid black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:2rem;
+  
+}
+
+.hamburger {
+    display:none;
+}
+
+
+
+.nav-menu {
+    display: flex;
+    justify-content: flex-start;
+  
+}
+
+.nav-item  {
+  padding-top:3px;
+  align-items:center;
+  display:block;
+justify-content: space-between;
+}
+.nav-item:hover{
+    background: linear-gradient(to bottom, #ffff66 0%, #ff9900 89%);
+
+ 
+}
+
+.nav-link{
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+   display:block;
+  align-items:center;
+}
+
+
+
+.nav-logo {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+}
+.nav-item .styling1{
+  padding:4px;
+  border-radius:2px;
+  border:1px solid red;
+  padding-right:2px;
+  
+ 
+}
+.nav-item .styling2{
+  border-radius:2px;
+  background-color:red;
+  
+  margin-top:3px;
+
+  
+}
+.promo{
+  width:100%;
+  height:auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 4rem;
+        flex-direction: column;
+        background-color: black;
+        width: 100%;
+        border-radius: 5px;
+        text-align: center;
+        transition: 0.5s;
+       
+    }
+  .nav-item .styling1{
+  padding:5px;
+  border-radius:2px;
+  border:1px solid red;
+  
+  
+ 
+}
+.nav-item .styling2{
+  border-radius:2px;
+  background-color:red;
+  padding:5px;
+  margin-top:3px;
+
+  
+}
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color:white;
+  
+}
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+      padding:3.5px;
+      display:block;
+      cursor:pointer;
+      
+    }
+  .nav-item:hover{
+    background-color:orange;
+}
+  }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+      right:-20%;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        -webkit-transform: translateY(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
+      background-color: orange;
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        -webkit-transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
+      background-color: orange;
+    }
+.promo{
+  top:0px;
+  padding:5px;
+  
+}
+}
