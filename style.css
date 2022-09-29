@@ -51,9 +51,9 @@ nav a {
 
 .nav-logo {
   display: flex;
-  height: 60px;
+  height: 80px;
   width: auto;
-  margin: 0 0 0 10px;
+  margin: -20px 0 0 10px;
 }
 
 .nav-menu {
@@ -72,15 +72,13 @@ nav a {
   padding: 8px 8px 8px 8px ;
   border-radius: 2px;
   border:2px solid #cd1717;
+  color: #cd1717;
 }
 
 .nav-item .register {
   padding: 8px 8px 8px 8px;
   background-color: #cd1717;
 }
-
-.promo{
-  }
 
 .bg {
   position: absolute;
@@ -95,6 +93,19 @@ object-fit: cover;
 .hamburger {
   display: none;
 }
+
+.nav-item :hover{
+  background-color: #cd1717;
+}
+#login :hover{
+  background-color:#cd1717;
+  color: white;
+}
+#register :hover{
+  background-color: white;
+  color: #cd1717;
+}
+
 
 @media only screen and (max-width: 768px) {
   .nav-menu {
