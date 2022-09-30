@@ -66,18 +66,21 @@ nav a {
   padding-top: 15px;
   align-items: center;
   justify-content: space-between;
+  margin-left: -10px;
 }
 
 .nav-item .login {
-  padding: 8px 8px 8px 8px ;
+  padding: 6px 6px 6px 6px ;
   border-radius: 2px;
   border:2px solid #cd1717;
   color: #cd1717;
+  font-weight::bold;
 }
 
 .nav-item .register {
   padding: 8px 8px 8px 8px;
   background-color: #cd1717;
+  margin-left: 0px;
 }
 
 .bg {
@@ -95,14 +98,15 @@ object-fit: cover;
 }
 
 .nav-item :hover{
-  background-color: #cd1717;
+  background-color: rgba(255, 255, 255, 0.2);
+  
 }
 #login :hover{
-  background-color:#cd1717;
+  background-color:rgba(255, 255, 255, 0.2);
   color: white;
 }
 #register :hover{
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.2);
   color: #cd1717;
 }
 
@@ -110,19 +114,18 @@ object-fit: cover;
 @media only screen and (max-width: 768px) {
   .nav-menu {
     position: fixed;
-    left: -100%;
+    right: -100%;
     top: 4rem;
     flex-direction: column;
-    background-color: black;
-    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 50%;
     border-radius: 5px;
-    text-align: center;
+    text-align:right;
     transition: 0.5s;
-
   }
 
-  .nav-item .styling1 {
-    padding: 5px;
+  .nav-item .login {
+    padding: 0;
     border-radius: 2px;
     border: 1px solid red;
 
@@ -130,7 +133,7 @@ object-fit: cover;
 
   }
 
-  .nav-item .styling2 {
+  .nav-item .register {
     border-radius: 2px;
     background-color: red;
     padding: 5px;
@@ -147,26 +150,23 @@ object-fit: cover;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: white;
-
   }
 
   .nav-menu.active {
-    left: 0;
+    right: 0;
   }
 
   .nav-item {
     padding: 3.5px;
     display: block;
     cursor: pointer;
-
   }
-
-}
 
 .hamburger {
   display: block;
   cursor: pointer;
-  right: -20%;
+  right: 0;
+  margin-right: -200px;
 }
 
 .hamburger.active .bar:nth-child(2) {
@@ -185,9 +185,8 @@ object-fit: cover;
   background-color: orange;
 }
 
-.promo {
-  top: 0px;
-  padding: 5px;
-
+.bg {
+  height: 300px;
+  width: 100vw;
 }
 }
