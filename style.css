@@ -59,7 +59,7 @@ nav a {
 .nav-menu {
   display: flex;
   justify-content:space-between;
-  margin-right: -150px;
+  margin-right: 10px;
 }
 
 .nav-item {
