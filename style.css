@@ -128,9 +128,6 @@ object-fit: cover;
     padding: 0;
     border-radius: 2px;
     border: 1px solid red;
-
-
-
   }
 
   .nav-item .register {
@@ -138,8 +135,6 @@ object-fit: cover;
     background-color: red;
     padding: 5px;
     margin-top: 3px;
-
-
   }
 
   .bar {
