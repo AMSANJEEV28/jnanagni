@@ -14,7 +14,7 @@ html {
 
 body {
   margin: 0px;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
 }
 
 li {
@@ -148,8 +148,8 @@ nav a {
   top: 55%;
   left: 10%;
   right: 10%;
-  font-size: 25px;
-  text-align: justify;
+  font-size: 23px;
+  text-align:center;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -171,28 +171,28 @@ nav a {
 .card1 {
   position: absolute;
   top: 65%;
-  left: 22%;
+  left: 19%;
   transform: translate(-50%, -50%);
 }
 
 .card2 {
   position: absolute;
   top: 65%;
-  left: 41%;
+  left: 40%;
   transform: translate(-50%, -50%);
 }
 
 .card3 {
   position: absolute;
   top: 65%;
-  left: 60%;
+  left: 61%;
   transform: translate(-50%, -50%);
 }
 
 .card4 {
   position: absolute;
   top: 65%;
-  left: 79%;
+  left: 82%;
   transform: translate(-50%, -50%);
 }
 
@@ -327,13 +327,13 @@ nav a {
 
 .clockdiv {
   position: absolute;
-  top: 25%;
-  left: 10%;
+  top: 30%;
+  left: 20%;
   color: #fff;
   display: inline-block;
   font-weight: bolder;
   text-align: center;
-  font-size: 200px;
+  font-size: 120px;
 }
 
 .clockdiv>div {
@@ -341,14 +341,15 @@ nav a {
   border-radius: 3px;
   background: #231f20;
   display: inline-block;
-  width: 270px;
-  height: 270px;
+  width: 200px;
+  height: 220px;
   text-align: center;
 }
 
 .clockdiv div>span {
-  width: 230px;
-  height: 230px;
+  text-align: center;
+  width: 150px;
+  height: 150px;
   border-radius: 3px;
   background: #000000;
   display: inline-block;
@@ -358,9 +359,8 @@ nav a {
 }
 
 .smalltext {
+  margin-top: -15px;
   font-size: 20px;
-  border: 2px solid #ffffff;
-  background: rgba(251, 251, 251, 0.2);
 }
 
 
