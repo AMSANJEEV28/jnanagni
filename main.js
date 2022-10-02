@@ -15,7 +15,7 @@ function closeMenu() {
     navMenu.classList.remove("active");
 }
 
-var deadline = new Date("nov 11, 2022 15:37:25").getTime();
+var deadline = new Date("nov 10, 2022 15:37:25").getTime();
   
 var x = setInterval(function() {
   
