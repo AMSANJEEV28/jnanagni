@@ -364,6 +364,37 @@ nav a {
   font-size: 20px;
 }
 
+.team {
+  position: relative;
+  text-align: center;
+  object-fit: cover;
+  top: 290px;
+}
+
+.team-bg {
+  position: relative;
+  object-fit: cover;
+  width: 80%;
+  text-align: center;
+}
+
+.team-box {
+  background-color: #101010;
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  right: 30%;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+}
+.team-box p{
+  color: #fff;
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 50px;
+}
+
 
 @media only screen and (max-width: 768px) {
   .nav-menu {
