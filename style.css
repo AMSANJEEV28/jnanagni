@@ -341,14 +341,14 @@ nav a {
   border-radius: 3px;
   background: #231f20;
   display: inline-block;
-  width: 250px;
-  height: 250px;
+  width: 270px;
+  height: 270px;
   text-align: center;
 }
 
 .clockdiv div>span {
-  width: 200px;
-  height: 200px;
+  width: 230px;
+  height: 230px;
   border-radius: 3px;
   background: #000000;
   display: inline-block;
