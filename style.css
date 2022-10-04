@@ -589,7 +589,7 @@ nav a {
   .clockdiv {
     position: absolute;
     top: 30%;
-    left: 25%;
+    left: 18%;
     font-size: 60px;
   }
 
@@ -612,5 +612,24 @@ nav a {
     margin-left: -1.5rem;
     font-size: 1rem;
   } 
+
+  .team {
+  top: 22rem;
+}
+
+.team-bg {
+  width: 100%;
+left: 2%;}
+
+.team-box {
+  height: 4.5rem;
+
+}
+
+.team-box p {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
 
 }
