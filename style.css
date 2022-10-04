@@ -76,7 +76,7 @@ nav a {
   border-radius: 2px;
   border: 2px solid #cd1717;
   color: #cd1717;
-  font-weight: :bold;
+  font-weight: bold;
 }
 
 .nav-item .register {
@@ -150,7 +150,7 @@ nav a {
   left: 10%;
   right: 10%;
   font-size: 23px;
-  text-align:center;
+  text-align: center;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -167,6 +167,18 @@ nav a {
   text-align: center;
   object-fit: cover;
   width: 70%;
+}
+
+.card {
+  cursor: pointer;
+  width: 270px;
+  height: 270px;
+  background: #101010;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  margin-top: 100px;
 }
 
 .card1 {
@@ -197,18 +209,6 @@ nav a {
   transform: translate(-50%, -50%);
 }
 
-.card {
-  cursor: pointer;
-  width: 270px;
-  height: 270px;
-  background: #101010;
-  display: flex;
-  justify-content: center;
-  border: 1px solid #ffffff;
-  border-radius: 2px;
-  margin-top: 100px;
-}
-
 .front,
 .back {
   width: 100%;
@@ -224,8 +224,6 @@ nav a {
   width: 225px;
   border: 5px solid #008b8b;
   border-radius: 2px;
-
-
 }
 
 .front h4 {
@@ -245,8 +243,6 @@ nav a {
   width: 225px;
   border: 5px solid #008b8b;
   border-radius: 2px;
-
-
 }
 
 .back-content a {
@@ -258,10 +254,8 @@ nav a {
   font-size: large;
   border: #000000;
   border-radius: 2px;
-
   background-color: rgba(0, 0, 0, 0.5);
 }
-
 
 .card:hover>.front {
   transform: perspective(600px) rotateY(-180deg);
@@ -388,14 +382,15 @@ nav a {
   display: flex;
   justify-content: center;
 }
-.team-box p{
+
+.team-box p {
   color: #fff;
   font-size: 25px;
   font-family: 'Oswald', sans-serif;
   margin-top: 50px;
 }
 
-
+/* ------------------------------------------------- */
 @media only screen and (max-width: 768px) {
   .nav-menu {
     position: fixed;
@@ -410,16 +405,17 @@ nav a {
   }
 
   .nav-item .login {
-    padding: 0;
     border-radius: 2px;
-    border: 1px solid red;
+    border: 2px solid red;
+    padding: 5px;
+    margin-right: 15px;
   }
 
   .nav-item .register {
     border-radius: 2px;
     background-color: red;
     padding: 5px;
-    margin-top: 3px;
+    margin-right: 15px;
   }
 
   .bar {
@@ -433,7 +429,8 @@ nav a {
   }
 
   .nav-menu.active {
-    right: 0;
+    right: 10%;
+    z-index: 5;
   }
 
   .nav-item {
@@ -445,8 +442,8 @@ nav a {
   .hamburger {
     display: block;
     cursor: pointer;
-    right: 0;
-    margin-right: -200px;
+    position: relative;
+    right: -40%;
   }
 
   .hamburger.active .bar:nth-child(2) {
@@ -467,6 +464,155 @@ nav a {
 
   .bg {
     height: 300px;
-    width: 100vw;
+    position: relative;
+    width: 100%;
   }
+
+  .promo {
+    position: relative;
+    text-align: center;
+    width: 102%;
+  }
+
+  body {
+    width: 120%;
+    min-width: 110vh;
+    overflow-x: hidden;
+  }
+
+  .title-sponsor-bg,
+  .about-bg,
+  .events-bg {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    left: 2%;
+  }
+
+  .about-paragraph {
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+  }
+/* 
+  .events-bg {
+    position: relative;
+    top: 200px;
+  }
+
+  .card {
+    width: 170px;
+    height: 200px;
+
+  }
+
+
+  .card1 {
+    position: absolute;
+    left: 14%;
+    top: 400px;
+  }
+
+  .card2 {
+    position: absolute;
+    left: 40%;
+    top: 400px;
+
+  }
+
+  .card3 {
+    position: absolute;
+    left: 66%;
+    top: 400px;
+
+  }
+
+  .card4 {
+    position: absolute;
+    left: 92%;
+    top: 400px;
+
+  }
+
+  .front img {
+    height: 150px;
+    width: 150px;
+  }
+
+  .front {
+    transform: perspective(600px) rotateY(0deg);
+  }
+
+  .back {
+    height: 150px;
+    width: 150px;
+  }
+
+  .back-content a {
+    position: relative;
+    top: -295px;
+    font-size: 0.8rem;
+    left: 45%;
+  }
+
+  .initiatives-bg {
+    width: 100%;
+    left: 2%;
+    top: 6rem;
+  }
+
+  .initiatives-box {
+    position: absolute;
+    top: 70%;
+    font-size: 1.5rem;
+  }
+
+  .initiative-img1 {
+    position: absolute;
+    height: 45%;
+    width: 30%;
+    right: 5%;
+  }
+
+  .initiatives-box p {
+    margin-right: 100px;
+  }
+
+  .countdown {
+    top: 400px;
+  }
+
+  .countdown-bg {
+    width: 120%;
+  }
+
+  .clockdiv {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-size: 60px;
+  }
+
+  .clockdiv>div {
+    width: 100px;
+    height: 120px;
+  }
+
+  .clockdiv div>span {
+    width: 80px;
+    height: 80px;
+    border-radius: 3px;
+    position: relative;
+    left: -2.5rem;
+    top: -2.5rem;
+  }
+
+  .smalltext {
+    margin-top: -2rem;
+    margin-left: -1.5rem;
+    font-size: 1rem;
+  } */
+
 }
