@@ -389,11 +389,55 @@ nav a {
   font-family: 'Oswald', sans-serif;
   margin-top: 50px;
 }
-a{
-  -webkit-tap-highlight-color:transparent
+
+a {
+  -webkit-tap-highlight-color: transparent
 }
 
+.contact-us {
+  position: relative;
+  object-fit: cover;
+  top: 300px;
+  left: 40px;
+  color: #fff;
+  width: 80%;
+}
+
+.contact-us h2 {
+  margin-left: 100px;
+  margin-bottom: 60px;
+}
+
+.contact-us a {
+  display: flex;
+  margin-left: 125px;
+  margin-top: 5px;
+  font-size: 20px;
+  ;
+}
+
+.contact-us span {
+  margin-right: 10px;
+}
+
+.call {
+  margin-top: 25px;
+  margin-left: -4px;
+}
+
+/*---------------------footer----------------------*/
+
+
+
 /* ------------------------------------------------- */
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+
+
+
 @media only screen and (max-width: 768px) {
   .nav-menu {
     position: fixed;
@@ -569,7 +613,7 @@ a{
     position: absolute;
     top: 22rem;
     font-size: 1.5rem;
-    height: 45% ;
+    height: 45%;
 
   }
 
@@ -585,10 +629,11 @@ a{
     margin-right: 100px;
   }
 
-   .countdown {
+  .countdown {
     top: 20rem;
     left: 0.5rem;
- }
+  }
+
   .clockdiv {
     position: absolute;
     top: 30%;
@@ -614,25 +659,33 @@ a{
     margin-top: -2rem;
     margin-left: -1.5rem;
     font-size: 1rem;
-  } 
+  }
 
   .team {
-  top: 22rem;
-}
+    top: 22rem;
+  }
 
-.team-bg {
-  width: 100%;
-left: 2%;}
+  .team-bg {
+    width: 100%;
+    left: 2%;
+  }
 
-.team-box {
-  height: 4.5rem;
+  .team-box {
+    height: 4.5rem;
 
-}
+  }
 
-.team-box p {
-  color: #fff;
-  font-size: 1.5rem;
-  margin-top: 1.5rem;
-}
+  .team-box p {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .contact-us{
+    left: -8%;
+  }
+  .contact-us h2 {
+    margin-top: 8%;
+  }
 
 }
