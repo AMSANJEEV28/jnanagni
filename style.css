@@ -475,8 +475,8 @@ nav a {
   }
 
   body {
-    width: 120%;
-    min-width: 110vh;
+    width: 100%;
+    min-width: 100vh;
     overflow-x: hidden;
   }
 
@@ -505,7 +505,7 @@ nav a {
   .card {
     width: 170px;
     height: 200px;
-    margin-top: 12rem;
+    margin-top: 8rem;
   }
 
   .card1 {
@@ -556,42 +556,40 @@ nav a {
     left: 45%;
   }
 
-  /*
   .initiatives-bg {
     width: 100%;
     left: 2%;
-    top: 6rem;
+    top: 7rem;
   }
 
   .initiatives-box {
     position: absolute;
-    top: 70%;
+    top: 22rem;
     font-size: 1.5rem;
+    height: 45% ;
+
   }
 
   .initiative-img1 {
     position: absolute;
-    height: 45%;
-    width: 30%;
+    height: 8rem;
+    width: 8rem;
     right: 5%;
+    top: 10%;
   }
 
   .initiatives-box p {
     margin-right: 100px;
   }
 
-  .countdown {
-    top: 400px;
-  }
-
-  .countdown-bg {
-    width: 120%;
-  }
-
+   .countdown {
+    top: 20rem;
+    left: 0.5rem;
+ }
   .clockdiv {
     position: absolute;
     top: 30%;
-    left: 20%;
+    left: 25%;
     font-size: 60px;
   }
 
@@ -613,6 +611,6 @@ nav a {
     margin-top: -2rem;
     margin-left: -1.5rem;
     font-size: 1rem;
-  } */
+  } 
 
 }
