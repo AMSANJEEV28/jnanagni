@@ -496,7 +496,7 @@ nav a {
     font-size: 1.5rem;
     font-family: 'Oswald', sans-serif;
   }
-/* 
+
   .events-bg {
     position: relative;
     top: 200px;
@@ -505,9 +505,8 @@ nav a {
   .card {
     width: 170px;
     height: 200px;
-
+    margin-top: 12rem;
   }
-
 
   .card1 {
     position: absolute;
@@ -557,6 +556,7 @@ nav a {
     left: 45%;
   }
 
+  /*
   .initiatives-bg {
     width: 100%;
     left: 2%;
