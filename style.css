@@ -662,6 +662,9 @@ top: 250px;}
     top: 20rem;
     left: 0.5rem;
   }
+  .countdown-bg{
+    width: 105%;
+  }
 
   .clockdiv {
     position: absolute;
@@ -725,4 +728,25 @@ top: 250px;}
     font-size: small;
   }
 
+  .contact-us a {
+    margin-left: 100px;
+    margin-top: 5px;
+    font-size: 1rem;
+  }
+  
+  .contact-us span {
+    margin-right: 5px;
+  }
+  
+  .call {
+    margin-top: 25px;
+    display: inline;
+  }
+  
+  .mail{
+    display: flex;
+  }
+  .mail a{
+    margin-right: 240px;
+  }
 }
