@@ -446,8 +446,9 @@ top: 250px;}
   width: 100%;
   text-align: center;
   z-index: -1;
-  height: 100%;
   overflow-x: hidden;
+  bottom: -10px;
+
 }
 
 .footer-content{
