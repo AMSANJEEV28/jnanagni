@@ -451,12 +451,31 @@ top: 250px;}
 
 }
 
+.footer-content p{
+position: absolute;
+margin-top: 55px;
+}
 .footer-content{
   position: absolute;
   color: #fff;
   top: 250px;
+  left: 25px;
   font-size: 23px;
   font-family: 'Oswald', sans-serif;
+  display: flex;
+  padding: 15px;
+  
+}
+#fs1 li {
+  padding: 12px;
+}
+#fs2 li {
+  padding: 12px;
+}
+#fs1 {
+
+  margin-left: 300px;
+
 }
 
 /* ------------------------------------------------- */
@@ -468,6 +487,23 @@ top: 250px;}
 
 
 
+
+
+
+
+@media screen and (max-width: 500px), 
+     screen and (max-height: 700px) {
+        .footer-content{
+          top: 150px;
+          }
+          .footer-content h1{
+            font-size: medium;
+            
+          }
+          
+          
+        }
+  
 @media only screen and (max-width: 768px) {
   .nav-menu {
     position: fixed;
