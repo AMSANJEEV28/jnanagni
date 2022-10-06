@@ -398,9 +398,9 @@ a {
   position: relative;
   object-fit: cover;
   top: 300px;
-  left: 40px;
+  left: -70px;
   color: #fff;
-  width: 80%;
+  width: 100%;
 }
 
 .contact-us h2 {
@@ -410,10 +410,9 @@ a {
 
 .contact-us a {
   display: flex;
-  margin-left: 125px;
+  margin-left: 90px;
   margin-top: 5px;
-  font-size: 20px;
-  ;
+  font-size: 18px;
 }
 
 .contact-us span {
@@ -422,12 +421,43 @@ a {
 
 .call {
   margin-top: 25px;
-  margin-left: -4px;
+  display: flex;
+  margin-right: -60px;
+}
+
+.mail{
+  display: flex;
+}
+.mail a{
+  margin-right: 240px;
 }
 
 /*---------------------footer----------------------*/
 
+.footer{
+  position: relative;
+  text-align: center;
+  object-fit: cover;
+top: 250px;}
 
+.footer-bg{
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  text-align: center;
+  z-index: -1;
+  overflow-x: hidden;
+  bottom: -10px;
+
+}
+
+.footer-content{
+  position: absolute;
+  color: #fff;
+  top: 250px;
+  font-size: 23px;
+  font-family: 'Oswald', sans-serif;
+}
 
 /* ------------------------------------------------- */
 /* ------------------------------------------------- */
@@ -633,6 +663,9 @@ a {
     top: 20rem;
     left: 0.5rem;
   }
+  .countdown-bg{
+    width: 105%;
+  }
 
   .clockdiv {
     position: absolute;
@@ -688,4 +721,33 @@ a {
     margin-top: 8%;
   }
 
+  .footer-bg{
+    left: 1%;
+    width: 105%;
+  }
+  .footer-content{
+    font-size: small;
+  }
+
+  .contact-us a {
+    margin-left: 100px;
+    margin-top: 5px;
+    font-size: 1rem;
+  }
+  
+  .contact-us span {
+    margin-right: 5px;
+  }
+  
+  .call {
+    margin-top: 25px;
+    display: inline;
+  }
+  
+  .mail{
+    display: flex;
+  }
+  .mail a{
+    margin-right: 240px;
+  }
 }
