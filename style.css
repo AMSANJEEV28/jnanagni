@@ -425,22 +425,24 @@ a {
   margin-right: -60px;
 }
 
-.mail{
+.mail {
   display: flex;
 }
-.mail a{
+
+.mail a {
   margin-right: 240px;
 }
 
 /*---------------------footer----------------------*/
 
-.footer{
+.footer {
   position: relative;
   text-align: center;
   object-fit: cover;
-top: 250px;}
+  top: 250px;
+}
 
-.footer-bg{
+.footer-bg {
   position: relative;
   object-fit: cover;
   width: 100%;
@@ -448,14 +450,17 @@ top: 250px;}
   z-index: -1;
   overflow-x: hidden;
   bottom: -10px;
+  height: 35rem;
 
 }
 
-.footer-content p{
-position: absolute;
-margin-top: 55px;
+.footer-content p {
+  position: absolute;
+  bottom: -50px;
+  font-size: 0.8rem;
 }
-.footer-content{
+
+.footer-content {
   position: absolute;
   color: #fff;
   top: 250px;
@@ -464,14 +469,26 @@ margin-top: 55px;
   font-family: 'Oswald', sans-serif;
   display: flex;
   padding: 15px;
-  
+
 }
+
 #fs1 li {
+  font-size: 18px;
+  text-align: left;
+  position: relative;
+  top: -80px;
+  margin-left: 400px;
   padding: 12px;
 }
+
 #fs2 li {
+  font-size: 18px;
+  text-align: left;
+  position: relative;
+  top: -80px;
   padding: 12px;
 }
+
 #fs1 {
 
   margin-left: 300px;
@@ -491,19 +508,20 @@ margin-top: 55px;
 
 
 
-@media screen and (max-width: 500px), 
-     screen and (max-height: 700px) {
-        .footer-content{
-          top: 150px;
-          }
-          .footer-content h1{
-            font-size: medium;
-            
-          }
-          
-          
-        }
-  
+@media screen and (max-width: 500px),
+screen and (max-height: 700px) {
+  .footer-content {
+    top: 150px;
+  }
+
+  .footer-content h1 {
+    font-size: medium;
+
+  }
+
+
+}
+
 @media only screen and (max-width: 768px) {
   .nav-menu {
     position: fixed;
@@ -699,7 +717,8 @@ margin-top: 55px;
     top: 20rem;
     left: 0.5rem;
   }
-  .countdown-bg{
+
+  .countdown-bg {
     width: 105%;
   }
 
@@ -750,19 +769,12 @@ margin-top: 55px;
     margin-top: 1.5rem;
   }
 
-  .contact-us{
+  .contact-us {
     left: -8%;
   }
+
   .contact-us h2 {
     margin-top: 8%;
-  }
-
-  .footer-bg{
-    left: 1%;
-    width: 105%;
-  }
-  .footer-content{
-    font-size: small;
   }
 
   .contact-us a {
@@ -770,20 +782,51 @@ margin-top: 55px;
     margin-top: 5px;
     font-size: 1rem;
   }
-  
+
   .contact-us span {
     margin-right: 5px;
   }
-  
+
   .call {
     margin-top: 25px;
     display: inline;
   }
-  
-  .mail{
+
+  .mail {
     display: flex;
   }
-  .mail a{
+
+  .mail a {
     margin-right: 240px;
+  }
+
+  .footer-bg {
+    left: 1%;
+    width: 105%;
+    position: relative;
+    object-fit: cover;
+    text-align: center;
+    overflow-x: hidden;
+    height: 25rem;
+    bottom: -80px;
+  }
+
+  .footer-content {
+    font-size: small;
+    position: absolute;
+    left: -25rem;
+  }
+
+  .footer-content a {
+    font-size: 0.8rem;
+    margin-left: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .footer-heading {
+    position: absolute;
+    left: 450px;
+    top: -50px;
+    font-size: 1rem;
   }
 }
